@@ -1,0 +1,50 @@
+h1{
+  text-align: start;
+}
+
+aside article {
+  background-color: #f5feff;
+  border: 1px solid #c9e5c9;
+  border-radius: 5px;
+}
+
+#animado05 {
+  padding: 5px;
+  border: 1px solid #c9e5c9;
+  width: 159px;
+  height: 125px;
+}
+
+ol {
+  margin-left: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#articulo {
+  display: flex;
+  float: left;
+  width: 650px;
+}
+
+#articulo section {
+  float: left;
+  max-width: 450px;
+}
+
+#articulo img {
+  float: right;
+  margin: 10px auto;
+}
+
+#recuadros {
+  float: right;
+  max-width: 200px;
+}
+
+#recuadros article {
+  padding: 5px;
+  margin: 10px 0px;
+}

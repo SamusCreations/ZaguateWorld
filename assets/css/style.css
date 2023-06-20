@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Yanone Kaffeesatz;
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot');
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf');
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: larger;
+    background: #C4E9E8 url(../images/back.png) repeat-x;
+    color: #555;
+}
+
+#container {
+    display: flex;
+    background: transparent url(../images/grass.png) repeat-x bottom;
+    height: 100%;
+}
+
+#main {
+    position: relative;
+    margin: 20px auto;
+    width: 850px;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#sun {
+    position: absolute;
+}
+
+#menu {
+    margin: 25px 0px;
+    width: 100%;
+    background-color: #53C7FD;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#menu #links a {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #53C7FD;
+}
+
+.submenu-trigger:hover+.submenu,
+.submenu:hover {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+}
+
+footer {
+    margin-top: 25px;
+    display: inline-block;
+    background-color: #53C7FD;
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    width: 830px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer a {
+    color: #FFF;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer #links {
+    margin: 10px 0px;
+}
+
+footer #links a {
+    display: inline-block;
+    vertical-align: middle;
+    border-right: 1px solid white;
+    text-align: center;
+    text-decoration: underline;
+    color: #FFF;
+    padding: 0px 5px;
+}
+
+footer #links a:last-child {
+    border-right: none;
+}
+
+footer #links a:hover,
+#menu #links a:hover {
+    color: #E5017D;
+}
+
+h1,
+h3,
+p {
+    margin: 10px 0px;
+}
+
+h1 {
+    color: #E5017D;
+    font-size: xx-large;
+    text-align: center;
+}
+
+h3 {
+    color: #C1EA84;
+    font-size: larger;
+}
+
+p {
+    text-align: justify;
+}

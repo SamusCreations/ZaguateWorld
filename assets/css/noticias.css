@@ -1,0 +1,10 @@
+h3{
+    text-align: center;
+}
+
+div article{
+    background-color: #f5feff;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 0px;
+}
