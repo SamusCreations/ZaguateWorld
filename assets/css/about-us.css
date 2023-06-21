@@ -1,0 +1,52 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table img {
+    max-width: 100px;
+    height: auto;
+}
+
+thead,
+tfoot {
+    color: #fff;
+    background-color: #E5017D;
+    height: 50px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #C8EAEB;
+}
+
+tbody td {
+    text-align: center;
+    padding: 5px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    height: 400px;
+    width: auto;
+}
+
+ul {
+    margin-left: 25px;
+}
+
+section:not(.logo) {
+    background-color: #53C7FD;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+section:not(.logo) h1 {
+    color: #fff;
+}

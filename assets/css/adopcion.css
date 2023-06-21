@@ -1,0 +1,41 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table img {
+    max-width: 100px;
+    height: auto;
+}
+
+thead,
+tfoot {
+    color: #fff;
+    background-color: #E5017D;
+    height: 50px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #C8EAEB;
+}
+
+tbody td {
+    text-align: center;
+    padding: 5px;
+}
+
+section {
+    background-color: #53C7FD;
+    margin: 0px;
+    padding: 5px;
+}
+
+section h1 {
+    color: #fff;
+}
+
+.table {
+    max-height: 600px;
+    overflow: auto;
+}
